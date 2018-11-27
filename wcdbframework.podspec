@@ -24,8 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = <<-DESC 
+                  easy use wcdb framework ,build framework of wcdb for X86_64,armv7s,arm64
+                  DESC
 
   s.homepage     = "https://github.com/xiazhouquan/wcdbframework"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -77,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/.../wcdbframework.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/xiazhouquan/wcdbframework.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
