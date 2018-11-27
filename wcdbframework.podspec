@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "wcdbframework"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "build framework of wcdb for X86_64,armv7s,arm64"
 
   # This description is used to generate tags and improve search results.
