@@ -62,8 +62,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -114,9 +114,9 @@ Pod::Spec.new do |s|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-   s.vendored_frameworks = 'wcdbframework/WCDB.framework','wcdbframework/sqlcipher.framework'
-  # s.framework  = "SomeFramework"
-  s.frameworks = "UIKit", "Foundation"
+  s.vendored_frameworks = 'wcdbframework/WCDB.framework','wcdbframework/sqlcipher.framework'
+  s.frameworks = "CoreFoundation", "Security", "Foundation"
+  s.ios.frameworks = "UIKit"
 
   # s.library   = "iconv"
   s.libraries = "z", "c++"
