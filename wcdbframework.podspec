@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "wcdbframework"
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
   s.summary      = "build framework of wcdb for X86_64,armv7s,arm64"
 
   # This description is used to generate tags and improve search results.
@@ -116,10 +116,10 @@ Pod::Spec.new do |s|
   #
    s.vendored_frameworks = 'wcdbframework/WCDB.framework','wcdbframework/sqlcipher.framework'
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
+  s.libraries = "z"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
